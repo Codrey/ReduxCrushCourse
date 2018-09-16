@@ -8,7 +8,6 @@
 
 2. This will pull the git repo to your machine. Then go inside the pulled folder
 
-       cd into folder...
-
+       cd ReactfromScratch
        npm install
        npm start
