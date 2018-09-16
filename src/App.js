@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import { Provider } from 'react-redux';
 
+import { Provider } from 'react-redux';
 import Posts from './components/Posts';
 import PostForm from './components/Postform';
 
 import store from './store';
 
 
-// const store = createStore((() => [], {}, applyMiddleware))
 
 class App extends Component {
     render() {
@@ -24,8 +23,5 @@ class App extends Component {
         );
     }
 }
-
-
-
 
 export default App;
